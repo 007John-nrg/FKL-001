@@ -45,7 +45,7 @@ a {
 	outline:none;
 }
 a:hover {
-	color:#32cd32;
+	color:#328fcd;
 }
 h1 {
 	position: relative;
@@ -139,6 +139,17 @@ header > div {
 .menu {
 	padding-bottom: 100px;
 	color: black;
+	
+}
+
+#white {
+	background-color: whitesmoke;
+}
+
+#menu {
+	
+	background-color: #32cd32;
+	color: #32cd32;
 }
 #menu > li {
 	position:relative;
@@ -148,7 +159,7 @@ header > div {
 	position:relative;
 	display:inline-block;
 	font: 20px/34px 'Contrail One', sans-serif;
-	
+	color: #32cd32;
 	padding-right: 4px;
 	text-align:left;
 	text-decoration:none;
@@ -156,6 +167,7 @@ header > div {
 }
 #menu > li > a.last{
 	background:0;
+	
 }
 #menu > li:after{
 	content: "";
@@ -164,6 +176,7 @@ header > div {
 	width: 80px;
 	height: 105px;
 	left: 0px;
+	
 }
 #menu > li.last:after{
 	content: "";
@@ -171,6 +184,7 @@ header > div {
 	display:inline-block;
 	width: 0px;
 	height: 0px;
+	
 	
 }
 #menu > li > a span{
@@ -182,9 +196,10 @@ header > div {
 	font: 100px/78px 'Contrail One', sans-serif;
 	line-height: 126px;
 	height: 101px;
+	color: #32cd32;
 	/*margin-bottom: 20px;*/
 	
-	border-bottom: 3px solid #000;
+	border-bottom: 3px solid #32cd32;
 }
 .submenu_1 {
 	position:absolute;
@@ -219,7 +234,7 @@ header > div {
 	z-index:-1;
 }
 .submenu_1 li>a:hover,.submenu_1 li.sfHover>a{
-	color: #32cd32 !important;
+	color: #cd3273 !important;
 }
 .submenu_2 {
 	position:absolute;
@@ -233,7 +248,7 @@ header > div {
 }
 /* ============================= bgGall ======================= */
 #bgStretch img{
-	background:#000;
+	/* background:#000; */
 }
 /* ============================= splash ====================== */
 #splash{

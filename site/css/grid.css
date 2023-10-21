@@ -45,8 +45,14 @@ body {
 	display:inline;
 	float: left;
 	position: relative;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.grid_4 {
+	background-color: white;
+	width: 50%;
+	border-radius: .9rem;
+	padding: .325rem;
 }
 
 .grid_4 a img {
